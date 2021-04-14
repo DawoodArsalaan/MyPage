@@ -1,13 +1,12 @@
 <?php
 
-if(isset( $_POST['email']) &&  $_POST['email'] != '')
+if(isset( $_POST['submit']))
 {
     $name = $_POST['name'];
     $email= $_POST['email'];
     $message= $_POST['message'];
 
-    $email_from = "mohammeddaawood78632@gmail.com";
-    $to = "testingdawood@gmail.com";
+    $to = "dawoodmohammed4@outlook.com";
     $subject = "Mail From $name from MyPage";
     $body = "";
 
@@ -16,7 +15,8 @@ if(isset( $_POST['email']) &&  $_POST['email'] != '')
     $body .= "Message = ". $message."\r\n";
     $headers = "From : $email" . "\r\n";
     mail($to,$subject,$body,$headers);
+
+    //redirect
+    header("Location: index.html");
 }
-//redirect
-header("Location: index.html");
 ?>
