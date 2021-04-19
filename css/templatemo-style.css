@@ -143,7 +143,7 @@ video {
   background: -moz-linear-gradient(top, #71ee40 0%, #d6d339 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #40ee4e 0%,#d6be39e0 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, #86ee40 0%,#d6be39e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#39ced6',GradientType=0 ); /* IE6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='40ee4e', endColorstr='d6be39e0',GradientType=0 ); /* IE6-9 */
   position:fixed;
   left:0;
   top:0;
@@ -860,7 +860,7 @@ textarea.form-control {
 .filled-bar {
   position: absolute;
   z-index: 99;
-  width: 64%;
+  width: 85%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
@@ -868,7 +868,55 @@ textarea.form-control {
 .filled-bar-2 {
   position: absolute;
   z-index: 99;
-  width: 82%;
+  width: 45%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-3 {
+  position: absolute;
+  z-index: 99;
+  width: 70%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-4 {
+  position: absolute;
+  z-index: 99;
+  width: 90%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-5 {
+  position: absolute;
+  z-index: 99;
+  width: 20%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-6 {
+  position: absolute;
+  z-index: 99;
+  width: 60%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-7 {
+  position: absolute;
+  z-index: 99;
+  width: 40%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-8 {
+  position: absolute;
+  z-index: 99;
+  width: 75%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
