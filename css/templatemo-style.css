@@ -293,7 +293,15 @@ video
   z-index: 99;
 }
 
-
+footer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+  text-align: center;
+}
 /*==============================================
 02. HEADER CSS
 ================================================*/
