@@ -450,7 +450,7 @@ a#logo {
 .next-section {
   display: inline-block;
   position: absolute;
-  left: 50%;
+  left: 48%;
   transform: translateX(-50%);
   bottom: 30px;
   cursor: pointer;
@@ -628,8 +628,8 @@ a#logo {
   height: 60px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 .portfolio-item .thumb-inner1 {
   position: absolute;
@@ -642,8 +642,8 @@ a#logo {
   height: 60px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 .portfolio-item .thumb-inner h4 {
   margin-bottom: 0;

@@ -11,7 +11,7 @@
 		margin-bottom:20px;
 	}
 	.next-section {
-	/*	bottom: auto; */
+    	left: 45%;
 	}
 	.welcome-title:before {
 		margin: 20px auto 5px;
@@ -119,11 +119,11 @@
 		margin-top:35px;
 	}
 	.social-icons li a {
-	  width: 25px;
-	  height:25px;
+	  width: 35px;
+	  height: 35px;
 	  border-radius: 50%;
 	  display:inline-block;
-	  line-height:25px;
+	  line-height: 35px;
 	  text-align:center;
 	  background: black;
 	  color: rgba(255,255,255,1);
